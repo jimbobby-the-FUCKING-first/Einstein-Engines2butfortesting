@@ -1,7 +1,7 @@
 - type: trait
   id: HighPotential
   category: Mental
-  points: -5
+  points: -1
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
@@ -118,7 +118,7 @@
 - type: trait
   id: HighAmplification
   category: Mental
-  points: -3
+  points: -1
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
@@ -153,7 +153,7 @@
 - type: trait
   id: PowerOverwhelming
   category: Mental
-  points: -10
+  points: -1
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
@@ -222,7 +222,7 @@
 - type: trait
   id: HighDampening
   category: Mental
-  points: -3
+  points: -1
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
@@ -256,7 +256,7 @@
 - type: trait
   id: DispelPower
   category: Mental
-  points: -6
+  points: -1
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
@@ -289,7 +289,7 @@
 - type: trait
   id: MetapsionicPower
   category: Mental
-  points: -4
+  points: -1
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
@@ -322,7 +322,7 @@
 - type: trait
   id: XenoglossyPower
   category: Mental
-  points: -10
+  points: -1
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
@@ -356,7 +356,7 @@
 - type: trait
   id: PsychognomyPower
   category: Mental
-  points: -3
+  points: -1
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
