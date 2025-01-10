@@ -1,7 +1,7 @@
 - type: trait
   id: CPRTraining
   category: Mental
-  points: -4
+  points: -1
   functions:
     - !type:TraitAddComponent
       components:
@@ -20,7 +20,7 @@
 - type: trait
   id: SelfAware
   category: Mental
-  points: -4
+  points: -1
   functions:
     - !type:TraitAddComponent
       components:
@@ -66,7 +66,7 @@
 - type: trait
   id: LiquorLifeline
   category: Physical
-  points: -6
+  points: -1
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -93,7 +93,7 @@
 - type: trait
   id: Thieving
   category: Physical
-  points: -8
+  points: -1
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -111,7 +111,7 @@
 - type: trait
   id: Voracious
   category: Physical
-  points: -2
+  points: -1
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -128,7 +128,7 @@
 - type: trait
   id: ParkourTraining
   category: Physical
-  points: -5
+  points: -1
   requirements:
     - !type:CharacterTraitRequirement
       inverted: true
@@ -154,7 +154,7 @@
 - type: trait
   id: LightStep
   category: Auditory
-  points: -2
+  points: -1
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -170,7 +170,7 @@
 - type: trait
   id: Singer
   category: Auditory
-  points: -2
+  points: -1
   requirements:
     - !type:CharacterSpeciesRequirement
       inverted: true
@@ -185,7 +185,7 @@
 - type: trait
   id: LatentPsychic
   category: Mental
-  points: -4
+  points: -1
   functions:
     - !type:TraitAddComponent
       components:
@@ -223,7 +223,7 @@
 - type: trait
   id: PsionicInsulation
   category: Mental
-  points: -10 #Buy a significant disability to get this.
+  points: -1 #Buy a REALLY significant disability to get this.
   functions:
     - !type:TraitAddComponent
       components:
@@ -262,7 +262,7 @@
 - type: trait
   id: NaturalTelepath
   category: Mental
-  points: -2
+  points: -1
   functions:
     - !type:TraitAddPsionics
       psionicPowers:
@@ -295,7 +295,7 @@
 - type: trait
   id: TrapAvoider
   category: Physical
-  points: -3
+  points: -1
   functions:
     - !type:TraitAddComponent
       components:
@@ -316,7 +316,7 @@
 - type: trait
   id: AnomalousPositronics
   category: Mental
-  points: -4
+  points: -1
   functions:
     - !type:TraitRemoveComponent
       components:
@@ -329,7 +329,7 @@
 - type: trait
   id: AnimalFriend
   category: Mental
-  points: -4
+  points: -1
   functions:
     - !type:TraitModifyFactions
       addFactions:
