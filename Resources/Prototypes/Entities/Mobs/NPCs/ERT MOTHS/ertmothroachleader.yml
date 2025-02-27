@@ -1,0 +1,34 @@
+- type: entity
+  name: ERT Leader mothroach
+  parent: MobMothroach
+  id: MobERTMothroachLeader
+  description: A small, armored, high ranking mothroach of the emergency response teams. This one seems to be the leader.
+  components:
+  - type: Sprite
+    sprite: Mobs/Animals/ERTMOTHROACHES/ertmothroachleader.rsi
+  - type: NpcFactionMember
+    factions:
+    - PetsNT
+    - NanoTrasen
+  - type: AutoImplant
+    implants:
+    - LightImplant
+  - type: IntrinsicRadioReceiver
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - CentCom
+  - type: ActiveRadio
+    channels:
+    - CentCom
+  - type: NoSlip
+  - type: Puller
+    needsHands: False
+  - type: LanguageKnowledge
+    speaks:
+    - Moffic
+    understands:
+    - Moffic
+    - TauCetiBasic
+  - type: PressureImmunity
+  - type: Insulated
+  - type: RespiratorImmune

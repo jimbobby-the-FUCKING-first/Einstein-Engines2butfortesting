@@ -1,0 +1,34 @@
+- type: entity
+  name: ERT Janitor mothroach
+  parent: MobMothroach
+  id: MobERTMothroachJanitor
+  description: A small, armored, high ranking mothroach of the emergency response teams. This one seems to be a janitorial officer.
+  components:
+  - type: Sprite
+    sprite: Mobs/Animals/ERTMOTHROACHES/ertmothroachjanitor.rsi
+  - type: NpcFactionMember
+    factions:
+    - PetsNT
+    - NanoTrasen
+  - type: AutoImplant
+    implants:
+    - LightImplant
+  - type: IntrinsicRadioReceiver
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - CentCom
+  - type: ActiveRadio
+    channels:
+    - CentCom
+  - type: NoSlip
+  - type: Puller
+    needsHands: False
+  - type: LanguageKnowledge
+    speaks:
+    - Moffic
+    understands:
+    - Moffic
+    - TauCetiBasic
+  - type: PressureImmunity
+  - type: Insulated
+  - type: RespiratorImmune
